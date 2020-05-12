@@ -1,0 +1,12 @@
+p {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+li a {
+  color: green; }
+
+.text-div:hover {
+  background-color: powderblue;
+  transition: background-color .5s; }
+
+/*# sourceMappingURL=fontstyle.css.map */

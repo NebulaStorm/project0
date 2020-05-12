@@ -1,0 +1,68 @@
+.divbox{
+  border: 1px black solid;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+.thebox{
+  text-align: center;
+}
+.boxitem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxcontent{
+  margin: 10px;
+  padding: 5px;
+}
+.boxitem > div{
+  border: 1px #e6e6e6 solid;
+  width:  500px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+a{
+color: #0e8c7f;
+}
+div > img{
+  width: 270px;
+}
+div > p{
+  text-align: justify;
+}
+header{
+  margin: 5px;
+}
+h1, h4{
+  border-bottom: 1px #e6e6e6 solid;
+}
+@media (max-width: 499px){
+  .boximg{
+    display: none;
+  }
+  .boxitem > div{
+    width:  500px;
+    margin: 2px;
+    padding: 2px;
+}
+}
+ol{
+  width: 300px;
+}
+#infbox{
+  border: 1px #e6e6e6 solid;
+}
+.borderbox{
+  border: 1px #e6e6e6 solid;
+  padding: 1px;
+}
+.borderbox > div{
+  margin: 2px;
+  padding: 1px;
+}
+p::selection{
+  background-color: green;
+  color: white;
+}
